@@ -1,10 +1,9 @@
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.Scanner;
-import java.util.Timer;
-public class FileSplitter{
+public class PDFSplitter{
     public static void main(String[] args) {
         try{
             byte b[]=new byte[1000000];
